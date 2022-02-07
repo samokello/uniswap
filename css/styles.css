@@ -1,0 +1,286 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:radial-gradient(closest-side, pink 0%, white);
+    background-attachment: fixed;
+}
+
+
+:root{
+--primary-color:black;
+--secondary-color:white;
+
+}
+
+
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.img-main{
+    width: 400px;
+    height: 200px;
+    border: 2px solid darkgrey;
+}
+
+
+#background-image{
+    background-image: url("../images/background1.png");
+    background-repeat: no-repeat;
+}
+
+
+#background-image2{
+    background-image: url("../images/glimer.svg");
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.background{
+    background-image: url("../images/app.png");
+background-size: cover;
+background-position:center center ;
+background-repeat: no-repeat;
+width: 60%;
+height: 40vh;
+border: 2px solid darkgrey;
+border-radius: 5%;
+
+}
+
+
+.uni-proto h1{
+   margin-top: 30%;
+    }
+    
+
+.uni-proto p{
+font-size:1.5rem;
+
+}
+
+.uni-proto{
+    margin-bottom: 4em;
+}
+
+.icons1 i{
+    margin:0.5em; 
+}
+
+ .icons i{
+margin:0.5em;
+margin-bottom:1
+0%;
+ }
+
+.p-4 h2{
+    font-size: 4rem;
+}
+
+.d-flex p{
+    font-size:1.5rem;
+}
+
+
+
+.d-flex h1{
+    font-size: 4rem;
+
+}
+
+.superpower{
+    
+    background-image: url("../images/hund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top:15%;
+    height: 60vh;
+    font-size: 2rem;
+    border-radius: 5%;
+  
+    
+} 
+.developer{
+height: 60vh;
+border: 2px solid darkgrey;
+border-radius: 5%;
+margin-left: 1em;
+width: 50%;
+background-color: lightgrey;
+
+}
+
+.unigrant img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.governer{
+    background-image:url("../images/background4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* height:40vh; */
+    width:40%;
+    border-radius: 5%;
+}
+
+.sybil{
+    height: 40vh;
+}
+
+.portal{
+   
+    border: 2px solid darkgrey;
+   
+    border-radius:10px;
+    padding: 1.5em;
+  
+    background-color:lightgrey;
+    font-size: 1rem;
+    width: 100%;
+    
+
+}
+
+.governance{
+    display:flex;
+    margin-bottom: 4em;
+   
+ 
+   
+}
+
+.developer-content p{
+    font-size: 1rem;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.myul li{
+list-style: none;
+margin: 2em;
+}
+
+.rotate-arrow{
+   
+    transform: rotate(-45deg);
+}
+
+.btn-green{
+    border-radius:5px;
+   
+    margin: 2em 1em;
+    padding:0.5em 0em;
+}
+
+.documentation{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.read-more{
+    background-color:transparent;
+    border: 2px solid darkgrey;
+    padding: 1em 2em;
+    border-radius: 10%;
+    margin-top: 4em;
+}
+
+
+.media{
+    margin-left: 1em;
+    width: 80%;
+}
+
+.marginb{
+    margin: 2em 0em;
+}
+
+.unip p{
+    font-size: 1.5rem;
+}
+
+.pointer{
+    cursor: pointer;
+    margin: 0em 2em;
+}
+
+
+
+.d-hidden{
+    visibility: hidden;
+    
+    background-color:#F7F6F9;
+    border-radius: 10px;
+    width:100%;
+    height: 25vh;
+    padding: 2em;
+}
+
+.d-hidden li{
+list-style-type: none;
+line-height:2em;
+
+
+}
+
+
+.d-hidden li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.d-hidden li a:hover{
+    color: darkgrey;
+}
+
+
+.list:hover .d-hidden{
+    visibility: visible;
+
+}
+
+
+.list a{
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+.list a:hover{
+    color: darkgrey;
+}
+
+.me-md-2{
+    background-image: linear-gradient(#DA0ECA,#E814B3);
+    border-radius:10px;
+    margin-left: 1em;
+   
+
+}
+
+.moon{
+margin: 0.5em;
+}
+
+.fas-tilt{
+    font-size: 1rem;
+}
+
+
+
